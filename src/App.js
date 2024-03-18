@@ -8,18 +8,20 @@ import "./styles/style.css";
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-      <Routes>
-        {" "}
-        {/* 使用 Routes 代替 Switch */}
-        <Route path="/" element={<Homepage />} exact />{" "}
-        {/* 更新 Route 的用法 */}
-        <Route path="/about" element={<About />} exact />{" "}
-        {/* 更新 Route 的用法 */}
-      </Routes>
-      <Footer />
-    </div>
+    <HashRouter basename="/">
+      <div className="App">
+        <Nav />
+        <Routes>
+          {" "}
+          {/* 使用 Routes 代替 Switch */}
+          <Route path="/" element={<Homepage />} exact />{" "}
+          {/* 更新 Route 的用法 */}
+          <Route path="/about" element={<About />} exact />{" "}
+          {/* 更新 Route 的用法 */}
+        </Routes>
+        <Footer />
+      </div>
+    </HashRouter>
   );
 }
 
