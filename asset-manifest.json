@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/photo-website/static/css/main.ebe11176.css",
+    "main.js": "/photo-website/static/js/main.aa4d349a.js",
+    "index.html": "/photo-website/index.html",
+    "main.ebe11176.css.map": "/photo-website/static/css/main.ebe11176.css.map",
+    "main.aa4d349a.js.map": "/photo-website/static/js/main.aa4d349a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebe11176.css",
+    "static/js/main.aa4d349a.js"
+  ]
+}
