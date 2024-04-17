@@ -13,8 +13,8 @@ This project is a photo gallery web application built with React that utilizes t
 
 ## Usage
 To start the application, run:
+npm start
 
-sh
 ## Copy code
 npm start
 This will run the app in the development mode. Open http://localhost:3000 to view it in your browser.
