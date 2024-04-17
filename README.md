@@ -11,12 +11,21 @@ This project is a photo gallery web application built with React that utilizes t
 - **Infinite Scrolling**: More images can be loaded by clicking the "Load More" button, allowing for an infinite scroll effect.
 - **Responsive Layout**: The website features a responsive design that adapts to various screen sizes for an optimal viewing experience.
 
-## Getting Started
+## Usage
+To start the application, run:
 
-To get a local copy up and running, follow these simple steps.
+sh
+## Copy code
+npm start
+This will run the app in the development mode. Open http://localhost:3000 to view it in your browser.
 
-### Prerequisites
+## Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-- npm
-  ```sh
-  npm install npm@latest -g
+## Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+## License
+Distributed under the MIT License. See LICENSE for more information.
